@@ -1,49 +1,9 @@
-.section-container {
-    display: flex;;
-}
-
-
-.left {
-    padding: 2%;
-    width: 40%;
-    background-color: lightblue;
-    min-height: 100vh;
-}
-
-img {
-    height: 300px;
-    border-radius: 10px;
-}   
-
-.right {
-    padding: 2%;
-    width: 60%;
-    background-color: lightgray;
-}
-
-.first-container {
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-
-}
-
 body {
-    font-family: "Arial", sans-serif;
-    font-size: 16px;
-    color: #333;
+    padding-top: 56px; /* Espacio para la navbar fija */
 }
-
-h1, h2, h3, h4, h5, h6 {
-    font-family: "Helvetica", sans-serif;
-    font-weight: bold;
-}
-
-p {
-    font-family: "Verdana", sans-serif;
-    line-height: 1.5;
-}
-
-.card {
-    font-family: "Verdana", sans-serif;
+.profile-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
 }
